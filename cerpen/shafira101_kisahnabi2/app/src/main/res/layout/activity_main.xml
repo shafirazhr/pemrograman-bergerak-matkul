@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DA021375"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="Pilih Kisah Nabi"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="?attr/colorPrimaryFixedDim"/>
+
+        <Button
+            android:id="@+id/adam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabi Adam AS"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/idris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabi Idris AS"
+            android:layout_marginTop="2dp"/>
+
+        <Button
+            android:id="@+id/nuh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabi Nuh AS"
+            android:layout_marginTop="2dp"/>
+
+        <Button
+            android:id="@+id/hud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabi Hud AS"
+            android:layout_marginTop="2dp"/>
+
+        <Button
+            android:id="@+id/saleh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabi Saleh AS"
+            android:layout_marginTop="2dp"/>
+
+        <Button
+            android:id="@+id/ibrahim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabi Ibrahim AS"
+            android:layout_marginTop="2dp"/>
+
+        <Button
+            android:id="@+id/ismail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabi Ismail AS"
+            android:layout_marginTop="2dp"/>
+
+        <Button
+            android:id="@+id/ishaq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabi Ishaq AS"
+            android:layout_marginTop="2dp"/>
+
+        <Button
+            android:id="@+id/luth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabi Luth AS"
+            android:layout_marginTop="2dp"/>
+
+        <Button
+            android:id="@+id/yaqub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabi Ya'qub AS"
+            android:layout_marginTop="2dp"/>
+
+        <Button
+            android:id="@+id/yusuf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nabi Yusuf AS"
+            android:layout_marginTop="2dp"/>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LAINNYA"
+            android:layout_marginTop="2dp"/>
+        <ToggleButton
+            android:gravity="center"
+            android:id="@+id/sounds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onToggleClicked"
+            android:textOn="Play"
+            android:textOff="Stop"
+            android:textColor="#222"
+            />
+</LinearLayout>
